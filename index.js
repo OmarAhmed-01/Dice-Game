@@ -51,10 +51,10 @@ myBtn.addEventListener("click", event=>{
         console.log(p1_dice);
         console.log(p2_dice);
         if (p1_dice > p2_dice){
-            document.querySelector("h1").innerHTML = ("Player 1 Wins 🤕");
+            document.querySelector("h1").innerHTML = `${player_1} wins 😯`;
         }
         else if (p2_dice > p1_dice){
-            document.getElementById("H1").textContent = "Player 2 Wins 😒";
+            document.getElementById("H1").textContent = `${player_2} wins 😱`;
         }
         else{
             document.getElementById("H1").textContent = "Draw 🥱";
