@@ -1,4 +1,9 @@
 const myBtn = document.getElementById("btn-1");
+let player_1 = window.prompt("Enter player 1's name: ");
+let player_2 = window.prompt("Enter player 2's name: ");
+
+document.getElementById("P1").innerHTML = player_1;
+document.getElementById("P2").innerHTML = player_2;
 
 myBtn.addEventListener("click", event=>{
     function compare(){
